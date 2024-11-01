@@ -1,0 +1,86 @@
+div#zk_wrapper{float:left;width:100%;box-sizing:border-box;}
+div#zk_wrapper *{box-sizing:border-box;}
+div#zk_wrapper div#zk_product{float:left;padding:10px;}
+div#zk_wrapper div#zk_product div#zk_productwrapper{border:1px solid #aaa;float:left;width:100%;position:relative;}
+div#zk_wrapper div#zk_product div#zk_productwrapper img.zk_pro_brand_logo{position: absolute;width:20%;top:50px;left:0px;}
+div#zk_wrapper div#zk_product div#zk_productwrapper span.zk_pro_off{position: absolute;top:20px;right:0px;padding:0px 5px;background:rgba(255,8,8,.8);color:#FFFFFF;}
+div#zk_wrapper div#zk_product div#zk_productwrapper span.zk_pro_title{background:#00aeef;color:#FFFFFF;float:left;width:100%;padding:5px 10px;}
+div#zk_wrapper div#zk_product div#zk_productwrapper span.zk_pro_title a{text-decoration: none;color:#FFFFFF;box-shadow:none;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_image{float:left;width:100%;padding:10px;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_image img.zk_pro_image{width:100%;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_pricwrapper{float:left;width:100%;text-align: center;margin-bottom:10px;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_pricwrapper span.zk_pro_price{padding:5px 20px;background: #00aeef;color:#FFFFFF;border-radius: 8px;box-shadow: 1px 3px 5px #333333;display: inline-block;min-width: 50%;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_data{padding:5px 10px;float: left;width:100%;font-size: 12px;line-height: 12px;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_data span.zk_title{float:left;color:#4d4d4d;margin-right:10px;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_data span.zk_value{float:left;color:#4d4d4d;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_button{width:96%;margin:0px 2%;border-top:1px solid #aaa;padding:10px 0px;float:left;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_button div.zk_pro_qty{float:left;width:65px;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_button div.zk_pro_qty img.zk_plus{float:left;cursor: pointer;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_button div.zk_pro_qty img.zk_minus{float:left;margin-top:5px;cursor: pointer;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_button div.zk_pro_qty span.zk_qty{float:left;min-width: 50px;background: #00aeef;padding:0px 5px;text-align:right;margin-right:5px;color:#FFFFFF;}
+div#zk_wrapper div#zk_product div#zk_productwrapper div.zk_pro_button img.zk_addkart{height:28px;float:right;color:#FFFFFF;cursor: pointer;}
+div#zk_wrapper div#zk_sitetitle{padding:5px 0px;font-size:20px;font-weight: 500;border-bottom:1px solid #363434;color:#363434;margin-bottom: 10px;}
+div#zk_wrapper div#zk_pagetitle{padding:5px 0px;font-size:16px;font-weight: 500;border-bottom:1px solid #363434;color:#363434;margin-bottom: 10px;}
+div#zk_wrapper div.zk_detail_box_wrapper{float:left;width:100%;border:1px solid #000000;margin-bottom: 10px;}
+div#zk_wrapper div.zk_detail_box_wrapper div.zk_detail_box_title{float:left;width:100%;background:#00aeef;color:#FFFFFF;padding:3px 10px;}
+div#zk_wrapper div.zk_detail_box_wrapper div.zk_detail_box_data{float:left;width:100%;padding:10px;}
+div#zk_wrapper div.zk_detail_box_wrapper div.zk_detail_box_data div.zk_feature_row_wrapper{float:left;width:100%;padding:3px 5px;border-bottom: 1px solid #000000;}
+div#zk_wrapper div.zk_detail_box_wrapper div.zk_detail_box_data div.zk_feature_row_wrapper:last-child{border-bottom: unset;}
+div#zk_wrapper div.zk_detail_box_wrapper div.zk_detail_box_data div.zk_feature_row_wrapper span.zk_feature_label{float:left;width:30%;padding-right:10px;}
+div#zk_wrapper div.zk_detail_box_wrapper div.zk_detail_box_data div.zk_feature_row_wrapper span.zk_feature_value{float:left;width:70%;}
+div#zk_wrapper div.zk_cart_wrapper{width:100%;float:left;padding:10px 0px;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_title{width:100%;float:left;padding:10px;background:#646464;color:#f8f8f8;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_title div.zk_items{float:left;text-align: center;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_title div.zk_items.title{width:45%;text-align: left;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_title div.zk_items.qty{width:15%;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_title div.zk_items.price{width:10%;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_title div.zk_items.total{width:15%;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_title div.zk_items.action{width:15%;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_value{width:100%;float:left;padding:10px;border:1px solid #ccc;margin-top:10px;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_value div.zk_items{float:left;text-align: center;padding:10px 5px;border-right:1px solid #ccc;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_value div.zk_items:last-child{border-right:0px;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_value div.zk_items.title{padding:0px 10px;width:45%;text-align: left;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_value div.zk_items.title img{margin-right:10px;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_value div.zk_items.qty{width:15%;padding:5px;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_value div.zk_items.qty input{width:100%;text-align: center;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_value div.zk_items.price{width:10%;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_value div.zk_items.total{width:15%;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_value div.zk_items.action{width:15%;}
+div#zk_wrapper div.zk_cart_wrapper div.zk_cart_value div.zk_items.action img{cursor:pointer;}
+div#zk_wrapper div.zk_total{font-weight: bold;text-align: right;font-size: 18px;}
+div#zk_wrapper div.zk_product_upper{width:100%;float:left;}
+div#zk_wrapper div.zk_product_upper div.zk_product_img{width:300px;border:1px solid #646464;float:left;padding:10px;height:430px;margin-bottom: 20px;}
+div#zk_wrapper div.zk_product_upper div.zk_product_img div#imagesliderwrapper{width:100%;position: relative;height: 100%;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail{width:calc(100% - 300px);float:left;padding-left:30px;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail img#zij_productdetail_brandlogo{max-width: 100%;display: block;margin-left:auto;margin-right:0px;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail span.product_colors{width:100%;float:left;padding:5px 10px;color:#FFFFFF;background:#00aeef;box-shadow: 1px 1px 3px #564646;margin-bottom: 20px;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail div.product_colors_wrapper{width:100%;float:left;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail div.product_colors_wrapper div.colorbox{margin-right:10px;float:left;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail span.zk_product_title{width:100%;float:left;padding:5px 10px;color:#FFFFFF;background:#00aeef;box-shadow: 1px 1px 3px #564646;margin-bottom: 20px;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail div.zk_product_keyvalue_wrapper{width:100%;float:left;padding:5px 0px;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail div.zk_pro_pricwrapper{float:right;padding:5px 10px;color: #FFFFFF;background:#00aeef;border-radius: 4px;box-shadow: 1px 1px 3px #646464;margin-top: 20px;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail div.zk_pro_qty_wrapper{float:left;margin-top:20px;margin-bottom: 20px;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail div.zk_pro_qty_wrapper div.zk_pro_qty{float:left;min-width:80px;position: relative;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail div.zk_pro_qty_wrapper div.zk_pro_qty span.zk_qty{float:left;min-width:60px;padding:3px;background: #00aeef;color:#FFFFFF;margin-right:3px;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail div.zk_pro_qty_wrapper div.zk_pro_qty img.zk_plus{position: absolute;right:5px;top:3px;}
+div#zk_wrapper div.zk_product_upper div.zk_product_detail div.zk_pro_qty_wrapper div.zk_pro_qty img.zk_minus{position: absolute;right:5px;bottom:3px;}
+div#zk_wrapper div#zk_popup{position: fixed;top:0px;left:0px;width:100%;height:100%;background: rgba(0,0,0,.8);z-index: 9999;}
+div#zk_wrapper div#zk_popup div#zk_cart_wrapper{width:500px;min-height: 100px;border-radius: 10px;background: #f8f8f8;box-shadow: 0px 0px 5px #888;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);overflow: hidden;}
+div#zk_wrapper div#zk_popup div#zk_cart_wrapper span.zk_title{display:block;width:100%;padding:10px;background:#00aeef;color:#FFFFFF;font-weight: bold;margin-bottom: 10px;}
+div#zk_wrapper div#zk_popup div#zk_cart_wrapper div.zk_form_row{display:block;width:100%;padding:0px 10px;margin-bottom: 10px;}
+div#zk_wrapper div#zk_popup div#zk_cart_wrapper div.zk_form_row span.zk_cart_message{display:block;width:100%;padding:0px 10px;margin-bottom: 10px;font-size:16px;}
+div#zk_wrapper div#zk_popup div#zk_cart_wrapper div.zk_form_row label.zk_label{display:block;width:100%;margin-bottom: 5px;}
+div#zk_wrapper div#zk_popup div#zk_cart_wrapper div.zk_form_row input.zk_field{display:block;width:100%;margin-bottom: 5px;}
+div#zk_wrapper div#zk_popup div#zk_cart_wrapper div.zk_form_button{display:block;width:100%;padding:10px;margin-bottom:15px;text-align: center;}
+div#zk_wrapper a#zk_category{display: block;float:left;padding:10px;}
+div#zk_wrapper a#zk_category div.zk_category_wrapper{display: block;float:left;width:100%;border:1px solid #191616;}
+div#zk_wrapper a#zk_category div.zk_cat_image{width:80px;height:80px;display: block;float:left;margin-right:15px;padding:10px;}
+div#zk_wrapper a#zk_category div.zk_cat_data{width:calc(100% - 95px);height:80px;display: block;float:left;}
+div#zk_wrapper a#zk_category div.zk_cat_data span.zk_title{width:100%;float:left;white-space: nowrap;color:#282626;margin-top:10px;}
+div#zk_wrapper a#zk_category div.zk_cat_data span.zk_products{width:100%;float:left;white-space: nowrap;color:#bfbebe;margin-top:10px;}
+div#zk_wrapper a#zk_brand{display: block;float:left;padding:10px;}
+div#zk_wrapper a#zk_brand div.zk_brand_wrapper{display: block;float:left;width:100%;border:1px solid #191616;}
+div#zk_wrapper a#zk_brand div.zk_cat_image{width:80px;height:80px;display: block;float:left;margin-right:15px;padding:10px;}
+div#zk_wrapper a#zk_brand div.zk_cat_data{width:calc(100% - 95px);height:80px;display: block;float:left;}
+div#zk_wrapper a#zk_brand div.zk_cat_data span.zk_title{width:100%;float:left;white-space: nowrap;color:#282626;margin-top:10px;}
+div#zk_wrapper a#zk_brand div.zk_cat_data span.zk_products{width:100%;float:left;white-space: nowrap;color:#bfbebe;margin-top:10px;}

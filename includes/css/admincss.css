@@ -1,0 +1,74 @@
+div#zijkart{float:left;width:100%;padding-right:20px;box-sizing:border-box;}
+div#zijkart *{box-sizing:border-box;}
+div#zijkart div.heading{float:left;width:100%;padding:10px;margin-top:20px;font-size: 30px;line-height:20px;font-weight:bold;color: #ffffff;background: #555;line-height: 30px;}
+div#zijkart div.heading a{float:right;display:inline-block;padding:5px 20px;border: 1px solid #ffffff;color:#ffffff;font-size: 12px;text-decoration: none;line-height: 15px;}
+div#zijkart div.titles{float:left;width:100%;background:#666666;margin:10px 0px;}
+div#zijkart div.titles div.zij{color:#ffffff;padding:5px 10px;float:left;}
+div#zijkart div.titles div.w10{width:10%;}
+div#zijkart div.titles div.w20{width:20%;}
+div#zijkart div.titles div.w30{width:30%;}
+div#zijkart div.titles div.w40{width:40%;}
+div#zijkart div.titles div.w50{width:50%;}
+div#zijkart div.titles div.w60{width:60%;}
+div#zijkart div.titles div.w70{width:70%;}
+div#zijkart div.titles div.w80{width:80%;}
+div#zijkart div.titles div.w90{width:90%;}
+div#zijkart div.row{float:left;width:100%;background: #fafafa;border:1px solid #a9a9a9;margin:5px 0px;}
+div#zijkart div.row img.row-image{border-radius: 50%;width:20px;border:1px solid #a8a8a8;min-height:20px;}
+div#zijkart div.row a img{border-radius: 50%;width:20px;border:1px solid #a8a8a8;min-height:20px;}
+div#zijkart div.row div.zij{padding:5px 10px;float:left;}
+div#zijkart div.row div.zij a{display: inline-block;}
+div#zijkart div.row div.w10{width:10%;}
+div#zijkart div.row div.w20{width:20%;}
+div#zijkart div.row div.w30{width:30%;}
+div#zijkart div.row div.w40{width:40%;}
+div#zijkart div.row div.w50{width:50%;}
+div#zijkart div.row div.w60{width:60%;}
+div#zijkart div.row div.w70{width:70%;}
+div#zijkart div.row div.w80{width:80%;}
+div#zijkart div.row div.w90{width:90%;}
+div#zijkart div.center{text-align: center;}
+div#zijkart form{float: left;width:100%;padding:20px;background: #f8f8f8;border:1px solid #cccccc;}
+div#zijkart form#zij_searchform{padding:10px;background: #f8f8f8;border:1px solid #cccccc;margin-top:10px;}
+div#zijkart form#zij_searchform * {float:left;margin-right:5px;}
+div#zijkart form div.row{background:none;border:0px;}
+div#zijkart form div.row label{float:left;width:25%;font-size:15px;padding:5px 0px;padding-right:20px;text-align: right;}
+div#zijkart form div.row div.editor{float:left;width:75%;}
+div#zijkart form div.row input[type="submit"]{margin:0 auto;display: block;}
+div#zijkart div.featureheading{float:left;width:100%;padding:10px;background: #434343;color:#f3f3f3;font-size:25px;font-weight: bold;line-height: 25px;}
+div#zijkart div.featureheading a{display: block;float:right;padding:5px 10px;background: #FEFEFE;color:#434343;border:1px solid #efefef;font-size:15px;line-height:15px;font-weight:normal;text-decoration: none;}
+div#zijkart div.featuretitles{float:left;width:100%;margin-top:5px;}
+div#zijkart div.featuretitles div.zijtitles{float:left;width:49%;margin-right:1%;background: #434343;color:#fefefe;padding:5px 10px;}
+div#zijkart div.featuretitles div.zijvalues{float:left;width:50%;background: #434343;color:#fefefe;padding:5px 10px;}
+div#zijkart div#featurelist{float:left;width:100%;margin-top:10px;}
+div#zijkart div#featurelist div.row div.zijtitles{float:left;width:49%;margin-right:1%;}
+div#zijkart div#featurelist div.row div.zijtitles input{width:100%;}
+div#zijkart div#featurelist div.row div.zijvalues{float:left;width:50%;}
+div#zijkart div#featurelist div.row div.zijvalues input{width:100%;}
+div#zijkart div#zijproductwrapper{float:left;width:100%;padding:10px;margin: 10px 0px;border:1px solid #888;background:#fefefe;}
+div#zijkart div#zijproductwrapper div.zijrow{float:left;width:100%;border-bottom:1px solid #e8e8e8;padding:5px 0px;margin-bottom: 5px;}
+div#zijkart div#zijproductwrapper div.zijrow:last-child{border-bottom:0px;}
+div#zijkart div#zijproductwrapper div.zijrow div.zijrow-part{float:left;width:50%;}
+div#zijkart div#zijproductwrapper div.zijrow div.zijrow-part div.zijrow-title{float:left;font-weight:bold;margin-right:10px;}
+div#zijkart div#zijproductwrapper div.zijrow div.zijrow-part div.zijrow-value{float:left;font-weight:normal;}
+div#zijkart div.row div.zk_variationimages{float:left;width:100%;margin:10px 0px;}
+div#zijkart div.row div.zk_variationimages div.zijimagewrapper{float:left;width:19%;margin:10px 1% 10px 0px;}
+div#zijkart div.row div.zk_variationimages div.zijimagewrapper a{float:left;width:100%;text-decoration: none;}
+div#zijkart div.row div.zk_variationimages div.zijimagewrapper a.already{color:#474747;}
+div#zijkart div.row div.zk_variationimages div.zijimagewrapper img{float:left;width:100%;margin:10px 1% 10px 0px;}
+div#zijkart div.zk_variationheading{float:left;width:100%;padding:5px 10px;background: #474747;color:#fefefe;}
+div#zijkart div.zk_options_wrapper{float:left;width:100%;}
+div#zijkart div.zk_options_wrapper div.zk_row{float:left;width:100%;margin-bottom: 10px;padding-bottom: 10px;border-bottom: 1px solid #dfdfdf;}
+div#zijkart div.zk_options_wrapper div.zk_row div.zk_title{float:left;width:20%;text-align: right;padding-right:10px;padding:5px;}
+div#zijkart div.zk_options_wrapper div.zk_row div.zk_value{float:left;width:30%;}
+div#zijkart div.zk_options_wrapper div.zk_row div.zk_value *{width:100%;}
+div#zijkart div.zk_options_wrapper div.zk_row div.zk_description{float:left;width:50%;padding-left:10px;padding:5px;}
+div#zijkart a.cp-item{display: inline-block;float:left;margin:15px 10px;padding:20px 10px;text-align: center;min-width: 180px;font-size:18px;color:#ffffff;border:1px solid #dfdfdf;border-radius: 8px;text-decoration: none;opacity: 1;}
+div#zijkart a.cp-item:hover{opacity: .8;}
+div#zijkart a.category{background:#56d35d;}
+div#zijkart a.brand{background:#edd118;}
+div#zijkart a.product{background:#43bae2;}
+div#zijkart a.option{background:#a555dc;}
+div#zijkart a.purchasehistory{background:#d25893;}
+div#zijkart div.row.purchasehistory div.rowpurchasehistory{width:100%;float:left;}
+div#zijkart div.cartdetail_items_heading{padding:10px;background:#373737;color:#ffffff;float:left;width:100%;font-weight: bold;font-size:17px;}
